@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div>
         <div className=' max-w-[1240px] mx-auto md:flex  justify-between mt-10'>
             {/* Text section */}
-            <div className=' flex flex-col justify-center items-center px-10 w-[70%]'>
+            <div className=' flex flex-col justify-center items-center px-10 md:w-[70%]'>
                 <div className=''>
                     <h1 className=' text-5xl font-bold my-5'>Turn Your Judiciary Dream Into Reality</h1>
                     <div className=' text-lg max-w-md font-bold ' >Revolutionize Your Prelims + Mains + Interview Preparation in an Integrated Manner.</div>
@@ -21,7 +21,7 @@ const HeroSection = () => {
                 </div>
             </div>
             {/* Picture section */}
-            <div className=' flex items-center justify-center h-full'>
+            <div className=' md:flex items-center justify-center h-full hidden '>
                 <img src={HeroImage} alt="HeroImage" />
             </div>
         </div>

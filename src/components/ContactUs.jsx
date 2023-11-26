@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <div className="max-w-[1024px] mx-auto">
       <div className=" text-center pt-24">
-        <h1 className=" gradient-text text-4xl font-bold text-textClr pb-2 ">
+        <h1 className=" gradient-text text-4xl text-center font-bold pb-2 ">
           {" "}
           Contact Us{" "}
         </h1>
@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="  md:flex md:justify-around md:gap-10">
         
         {/* =============== Why Edzorb Law ============ */}
-        <div className=" w-[90%] my-5 text-xl">
+        <div className=" w-[90%] my-5 text-sm mx-8 text-justify md:text-xl">
         <p className=" text-center font-bold text-xl "> Why Edzorb  Law</p>
           <p className=" py-5 text-lg">Edzorb’s mission: Equal access to top-notch study materials for aspiring judicial exam candidates, achieving top 10 ranks through our guidance and your dedication</p>
           <p className=" text-lg">We want to make sure that every aspirant gets access to the best study material there is.</p>
